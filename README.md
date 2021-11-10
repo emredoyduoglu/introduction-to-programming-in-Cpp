@@ -16,7 +16,7 @@
 <p>As C++ is close to <a href="/cs/default.asp">C#</a><a> and </a><a href="/java/default.asp">Java</a>, it makes it easy for programmers to switch to C++ or vice versa</p>
 
 <b><h1>Unit Outline:</h1></b>
-<p>Hello World</p>
-<p>Data Types and Expressions </p>
-<p>Branching Statements </p>
-<p>Iterative Statements</p>
+<p>1. Hello World</p>
+<p>2. Data Types and Expressions </p>
+<p>3. Branching Statements </p>
+<p>4. Iterative Statements</p>
