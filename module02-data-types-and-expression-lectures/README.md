@@ -90,3 +90,16 @@ char a = 65, b = 66, c = 67;<br>
 cout << a;<br>
 cout << b;<br>
 cout << c; <br>
+
+<b><h2>String Types</h2></b>
+The string type is used to store a sequence of characters (text). This is not a built-in type, but it behaves like one in its most basic usage. String values must be surrounded by double quotes:
+
+// Include the string library<br>
+#include <string><br><br>
+// Create a string variable<br>
+string greeting = "Hello";<br><br>
+// Output string value<br>
+cout << greeting; <br>
+  
+
+
