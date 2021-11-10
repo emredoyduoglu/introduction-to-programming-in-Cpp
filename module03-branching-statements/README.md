@@ -1,9 +1,9 @@
 <b><h2>Booleans</h2></b>
 Very often, in programming, you will need a data type that can only have one of two values, like:
 
-    YES / NO<br>
-    ON / OFF<br>
-    TRUE / FALSE<br>
+    YES / NO
+    ON / OFF
+    TRUE / FALSE
 
 For this, C++ has a bool data type, which can take the values true (1) or false (0).
 
