@@ -5,7 +5,7 @@ char myLetter = 'D';         // Character<br>
 bool myBoolean = true;       // Boolean<br>
 string myText = "Hello";     // String <br>
 
-
+<table class="ws-table-all notranslate">
 <tbody><tr>
 <th style="width:15%">Data Type</th>
 <th style="width:15%">Size</th>
@@ -40,3 +40,4 @@ storing 15 decimal digits</td>
 </tr>
 
 </tbody>
+</table>
