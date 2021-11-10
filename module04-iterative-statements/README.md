@@ -45,3 +45,12 @@ When you know exactly how many times you want to loop through a block of code, u
 
 <span class="javakeywordcolor" style="color:mediumblue">for</span> (<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>; i &lt; <span class="javanumbercolor" style="color:red">10</span>; i++) {<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
 </span>  <span class="javakeywordcolor" style="color:mediumblue">continue</span>;<br>&nbsp; }<br>&nbsp; cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>} 
+
+<b><h2>Break and Continue in While Loop</h2></b>
+<p>You can also use <code class="w3-codespan">break</code> and <code class="w3-codespan">continue</code> in while loops:</p>
+<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>;<br><span class="javakeywordcolor" style="color:mediumblue">while</span> (i &lt; <span class="javanumbercolor" style="color:red">10</span>) {<br>&nbsp;&nbsp;cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>&nbsp;&nbsp;i++;<br><span class="javanumbercolor" style="color:red">
+</span>  &nbsp;&nbsp;<span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  }<br>} 
+
+<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>;<br><span class="javakeywordcolor" style="color:mediumblue">while</span> (i &lt; <span class="javanumbercolor" style="color:red">10</span>) {<br>&nbsp;&nbsp;<span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp; i++;<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="javakeywordcolor" style="color:mediumblue">continue</span>;<br><span class="javanumbercolor" style="color:red">
+</span>  &nbsp;&nbsp;}<br>&nbsp;&nbsp;cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>&nbsp;&nbsp;i++;<br>} 
