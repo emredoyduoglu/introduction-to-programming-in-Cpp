@@ -62,3 +62,19 @@ The precision of <code class="w3-codespan">float</code> is only six or seven
 decimal digits, while <code class="w3-codespan">double</code> variables have a precision 
 of about 15 digits. Therefore it is safer to use <code class="w3-codespan">double</code> for most calculations.</p>
 </div>
+
+<b><h3>Scientific Numbers</h3></b>
+
+A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+float f1 = 35e3;<br>
+double d1 = 12E4;
+
+<b><h2>Boolean Types</h2></b>
+A boolean data type is declared with the bool keyword and can only take the values true or false. When the value is returned, true = 1 and false = 0.
+
+bool isCodingFun = true;<br>
+bool isFishTasty = false;<br>
+cout << isCodingFun;  // Outputs 1 (true)<br>
+cout << isFishTasty;  // Outputs 0 (false) <br>
+
