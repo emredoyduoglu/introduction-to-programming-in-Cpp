@@ -78,3 +78,15 @@ bool isFishTasty = false;<br>
 cout << isCodingFun;  // Outputs 1 (true)<br>
 cout << isFishTasty;  // Outputs 0 (false) <br>
 
+<b><h2>Character Types</h2></b>
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+
+char myGrade = 'B';<br>
+cout << myGrade;<br>
+
+Alternatively, you can use ASCII values to display certain characters:
+
+char a = 65, b = 66, c = 67;<br>
+cout << a;<br>
+cout << b;<br>
+cout << c; <br>
