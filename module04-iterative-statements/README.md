@@ -31,7 +31,7 @@ When you know exactly how many times you want to loop through a block of code, u
 <p><strong>Statement 3</strong> is executed (every time) after the code block has been executed.</p>
 
 <b><h2>Break</h2></b>
-<p>You have already seen the <code class="w3-codespan">break</code> statement used in an earlier chapter of this tutorial. It was used to "jump out" of a <a href="cpp_switch.asp"><code class="w3-codespan">switch</code></a> statement.</p>
+<p>You have already seen the <code class="w3-codespan">break</code> statement used in an earlier chapter of this tutorial. It was used to "jump out" of a <code class="w3-codespan">switch</code> statement.</p>
 <p>The <code class="w3-codespan">break</code> statement can also be used to jump out of a 
 <strong>loop</strong>.</p>
 <p>This example jumps out of the loop when <code class="w3-codespan">i</code> is equal to 4:</p>
