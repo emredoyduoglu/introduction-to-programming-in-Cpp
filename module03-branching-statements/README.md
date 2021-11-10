@@ -89,6 +89,18 @@ Use the switch statement to select one of many code blocks to be executed.
 <li>The <code class="w3-codespan">break</code> and <code class="w3-codespan">default</code> keywords are optional, and will be described later in this chapter</li>
 </ul>
 
+The example below uses the weekday number to calculate the weekday name:
+
+<span class="javakeywordcolor" style="color:mediumblue">int</span> day = <span class="javanumbercolor" style="color:red">4</span>;<br><span class="javakeywordcolor" style="color:mediumblue">switch</span> (day) {<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">1</span>:<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Monday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">2</span>:<br><span class="javanumbercolor" style="color:red">
+</span>  &nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Tuesday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">3</span>:<br><span class="javanumbercolor" style="color:red">
+</span>  &nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Wednesday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">
+</span>  <span class="javanumbercolor" style="color:red">4</span>:<br>&nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Thursday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">5</span>:<br>&nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Friday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">6</span>:<br>&nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Saturday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">case</span> <span class="javanumbercolor" style="color:red">7</span>:<br>&nbsp;&nbsp;&nbsp; cout &lt;&lt; <span class="javastringcolor" style="color:brown">"Sunday"</span>;<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br><span class="javanumbercolor" style="color:red">
+</span>  }<br><span class="commentcolor" style="color:green">// Outputs "Thursday" (day 4) </span>
 
 
     
