@@ -39,3 +39,9 @@ When you know exactly how many times you want to loop through a block of code, u
 <span class="javakeywordcolor" style="color:mediumblue">for</span> (<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>; i &lt; <span class="javanumbercolor" style="color:red">10</span>; i++) {<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
 </span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; }<br>&nbsp; cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>} 
 
+<b><h2>Continue</h2></b>
+<p>The <code class="w3-codespan">continue</code> statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.</p>
+<p>This example skips the value of 4:</p>
+
+<span class="javakeywordcolor" style="color:mediumblue">for</span> (<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>; i &lt; <span class="javanumbercolor" style="color:red">10</span>; i++) {<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">continue</span>;<br>&nbsp; }<br>&nbsp; cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>} 
