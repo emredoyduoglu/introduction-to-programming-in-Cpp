@@ -1,3 +1,7 @@
+
+<b><h1>DATA TYPES</h1></b>
+
+
 int myNum = 5;               // Integer (whole number)<br>
 float myFloatNum = 5.99;     // Floating point number<br>
 double myDoubleNum = 9.98;   // Floating point number<br>
@@ -41,3 +45,6 @@ storing 15 decimal digits</td>
 
 </tbody>
 </table>
+
+
+<b><h2>Numeric Types</h2></b>
