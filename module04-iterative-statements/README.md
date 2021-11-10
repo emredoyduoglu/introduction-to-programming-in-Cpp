@@ -35,3 +35,7 @@ When you know exactly how many times you want to loop through a block of code, u
 <p>The <code class="w3-codespan">break</code> statement can also be used to jump out of a 
 <strong>loop</strong>.</p>
 <p>This example jumps out of the loop when <code class="w3-codespan">i</code> is equal to 4:</p>
+
+<span class="javakeywordcolor" style="color:mediumblue">for</span> (<span class="javakeywordcolor" style="color:mediumblue">int</span> i = <span class="javanumbercolor" style="color:red">0</span>; i &lt; <span class="javanumbercolor" style="color:red">10</span>; i++) {<br>&nbsp; <span class="javakeywordcolor" style="color:mediumblue">if</span> (i == <span class="javanumbercolor" style="color:red">4</span>) {<br>&nbsp;&nbsp;&nbsp; <span class="javanumbercolor" style="color:red">
+</span>  <span class="javakeywordcolor" style="color:mediumblue">break</span>;<br>&nbsp; }<br>&nbsp; cout &lt;&lt; i &lt;&lt; <span class="javastringcolor" style="color:brown">"\n"</span>;<br>} 
+
