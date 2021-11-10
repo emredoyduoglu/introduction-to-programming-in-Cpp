@@ -1,9 +1,9 @@
-int myNum = 5;               // Integer (whole number)
-float myFloatNum = 5.99;     // Floating point number
-double myDoubleNum = 9.98;   // Floating point number
-char myLetter = 'D';         // Character
-bool myBoolean = true;       // Boolean
-string myText = "Hello";     // String 
+int myNum = 5;               // Integer (whole number)<br>
+float myFloatNum = 5.99;     // Floating point number<br>
+double myDoubleNum = 9.98;   // Floating point number<br>
+char myLetter = 'D';         // Character<br>
+bool myBoolean = true;       // Boolean<br>
+string myText = "Hello";     // String <br>
 
 
 Data Type       Size        Description
