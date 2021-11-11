@@ -25,7 +25,7 @@ using namespace std;
 int main()
 {
 	int quarters,dimes,nickels,pennies;
-    int money;
+    	int money;
 	int dollars;
 	int cents;
 	
@@ -46,5 +46,5 @@ int main()
 	
 	
 	cout<<"The coins are "<<quarters<<" quarters, "<<dimes<<" dimes, "<<nickels<<" nickels and "<<pennies<<" pennies"<<endl;
-    return 0;
+    	return 0;
 }
